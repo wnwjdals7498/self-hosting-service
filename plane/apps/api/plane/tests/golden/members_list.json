@@ -1,0 +1,328 @@
+{
+  "__meta__": {
+    "endpoint": "members_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/members/"
+  },
+  "body": [
+    {
+      "company_role": null,
+      "created_at": "2026-04-19T09:23:05.881485Z",
+      "created_by": null,
+      "default_props": {
+        "display_filters": {
+          "calendar_date_range": "",
+          "group_by": null,
+          "layout": "list",
+          "order_by": "-created_at",
+          "show_empty_groups": true,
+          "sub_issue": true,
+          "type": null
+        },
+        "display_properties": {
+          "assignee": true,
+          "attachment_count": true,
+          "created_on": true,
+          "due_date": true,
+          "estimate": true,
+          "key": true,
+          "labels": true,
+          "link": true,
+          "priority": true,
+          "start_date": true,
+          "state": true,
+          "sub_issue_count": true,
+          "updated_on": true
+        },
+        "filters": {
+          "assignees": null,
+          "created_by": null,
+          "labels": null,
+          "priority": null,
+          "start_date": null,
+          "state": null,
+          "state_group": null,
+          "subscriber": null,
+          "target_date": null
+        }
+      },
+      "deleted_at": null,
+      "explored_features": {},
+      "getting_started_checklist": {},
+      "id": "55f47546-a8c9-371c-b1e5-dc26f7b4f464",
+      "is_active": true,
+      "issue_props": {
+        "all_issues": true,
+        "assigned": true,
+        "created": true,
+        "subscribed": true
+      },
+      "member": {
+        "avatar": "",
+        "avatar_url": null,
+        "display_name": "guest",
+        "email": "guest@phase-a.local",
+        "first_name": "Guest",
+        "id": "35d285b7-d4f7-3205-8492-a4ce286611c3",
+        "is_bot": false,
+        "last_login_medium": "email",
+        "last_name": "PhaseA"
+      },
+      "role": 5,
+      "tips": {},
+      "updated_at": "2026-04-19T09:23:05.881499Z",
+      "updated_by": null,
+      "view_props": {
+        "display_filters": {
+          "calendar_date_range": "",
+          "group_by": null,
+          "layout": "list",
+          "order_by": "-created_at",
+          "show_empty_groups": true,
+          "sub_issue": true,
+          "type": null
+        },
+        "display_properties": {
+          "assignee": true,
+          "attachment_count": true,
+          "created_on": true,
+          "due_date": true,
+          "estimate": true,
+          "key": true,
+          "labels": true,
+          "link": true,
+          "priority": true,
+          "start_date": true,
+          "state": true,
+          "sub_issue_count": true,
+          "updated_on": true
+        },
+        "filters": {
+          "assignees": null,
+          "created_by": null,
+          "labels": null,
+          "priority": null,
+          "start_date": null,
+          "state": null,
+          "state_group": null,
+          "subscriber": null,
+          "target_date": null
+        }
+      },
+      "workspace": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "company_role": null,
+      "created_at": "2026-04-19T09:23:05.880351Z",
+      "created_by": null,
+      "default_props": {
+        "display_filters": {
+          "calendar_date_range": "",
+          "group_by": null,
+          "layout": "list",
+          "order_by": "-created_at",
+          "show_empty_groups": true,
+          "sub_issue": true,
+          "type": null
+        },
+        "display_properties": {
+          "assignee": true,
+          "attachment_count": true,
+          "created_on": true,
+          "due_date": true,
+          "estimate": true,
+          "key": true,
+          "labels": true,
+          "link": true,
+          "priority": true,
+          "start_date": true,
+          "state": true,
+          "sub_issue_count": true,
+          "updated_on": true
+        },
+        "filters": {
+          "assignees": null,
+          "created_by": null,
+          "labels": null,
+          "priority": null,
+          "start_date": null,
+          "state": null,
+          "state_group": null,
+          "subscriber": null,
+          "target_date": null
+        }
+      },
+      "deleted_at": null,
+      "explored_features": {},
+      "getting_started_checklist": {},
+      "id": "b4cb8218-592a-3d10-9255-b78e8ff85893",
+      "is_active": true,
+      "issue_props": {
+        "all_issues": true,
+        "assigned": true,
+        "created": true,
+        "subscribed": true
+      },
+      "member": {
+        "avatar": "",
+        "avatar_url": null,
+        "display_name": "member",
+        "email": "member@phase-a.local",
+        "first_name": "Member",
+        "id": "f304c45a-2745-344e-bc01-b30e06391fa7",
+        "is_bot": false,
+        "last_login_medium": "email",
+        "last_name": "PhaseA"
+      },
+      "role": 15,
+      "tips": {},
+      "updated_at": "2026-04-19T09:23:05.880366Z",
+      "updated_by": null,
+      "view_props": {
+        "display_filters": {
+          "calendar_date_range": "",
+          "group_by": null,
+          "layout": "list",
+          "order_by": "-created_at",
+          "show_empty_groups": true,
+          "sub_issue": true,
+          "type": null
+        },
+        "display_properties": {
+          "assignee": true,
+          "attachment_count": true,
+          "created_on": true,
+          "due_date": true,
+          "estimate": true,
+          "key": true,
+          "labels": true,
+          "link": true,
+          "priority": true,
+          "start_date": true,
+          "state": true,
+          "sub_issue_count": true,
+          "updated_on": true
+        },
+        "filters": {
+          "assignees": null,
+          "created_by": null,
+          "labels": null,
+          "priority": null,
+          "start_date": null,
+          "state": null,
+          "state_group": null,
+          "subscriber": null,
+          "target_date": null
+        }
+      },
+      "workspace": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "company_role": null,
+      "created_at": "2026-04-19T09:23:05.878930Z",
+      "created_by": null,
+      "default_props": {
+        "display_filters": {
+          "calendar_date_range": "",
+          "group_by": null,
+          "layout": "list",
+          "order_by": "-created_at",
+          "show_empty_groups": true,
+          "sub_issue": true,
+          "type": null
+        },
+        "display_properties": {
+          "assignee": true,
+          "attachment_count": true,
+          "created_on": true,
+          "due_date": true,
+          "estimate": true,
+          "key": true,
+          "labels": true,
+          "link": true,
+          "priority": true,
+          "start_date": true,
+          "state": true,
+          "sub_issue_count": true,
+          "updated_on": true
+        },
+        "filters": {
+          "assignees": null,
+          "created_by": null,
+          "labels": null,
+          "priority": null,
+          "start_date": null,
+          "state": null,
+          "state_group": null,
+          "subscriber": null,
+          "target_date": null
+        }
+      },
+      "deleted_at": null,
+      "explored_features": {},
+      "getting_started_checklist": {},
+      "id": "638cad53-d902-37e1-a625-1260241a0271",
+      "is_active": true,
+      "issue_props": {
+        "all_issues": true,
+        "assigned": true,
+        "created": true,
+        "subscribed": true
+      },
+      "member": {
+        "avatar": "",
+        "avatar_url": null,
+        "display_name": "admin",
+        "email": "admin@phase-a.local",
+        "first_name": "Admin",
+        "id": "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+        "is_bot": false,
+        "last_login_medium": "email",
+        "last_name": "PhaseA"
+      },
+      "role": 20,
+      "tips": {},
+      "updated_at": "2026-04-19T09:23:05.878945Z",
+      "updated_by": null,
+      "view_props": {
+        "display_filters": {
+          "calendar_date_range": "",
+          "group_by": null,
+          "layout": "list",
+          "order_by": "-created_at",
+          "show_empty_groups": true,
+          "sub_issue": true,
+          "type": null
+        },
+        "display_properties": {
+          "assignee": true,
+          "attachment_count": true,
+          "created_on": true,
+          "due_date": true,
+          "estimate": true,
+          "key": true,
+          "labels": true,
+          "link": true,
+          "priority": true,
+          "start_date": true,
+          "state": true,
+          "sub_issue_count": true,
+          "updated_on": true
+        },
+        "filters": {
+          "assignees": null,
+          "created_by": null,
+          "labels": null,
+          "priority": null,
+          "start_date": null,
+          "state": null,
+          "state_group": null,
+          "subscriber": null,
+          "target_date": null
+        }
+      },
+      "workspace": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    }
+  ]
+}

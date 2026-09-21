@@ -1,0 +1,91 @@
+{
+  "__meta__": {
+    "endpoint": "issues_list_priority_high",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/c33971d2-c4de-3543-bf58-ea5a6aec1974/issues/?priority=high"
+  },
+  "body": {
+    "count": 2,
+    "extra_stats": null,
+    "grouped_by": null,
+    "next_cursor": "1000:1:0",
+    "next_page_results": false,
+    "prev_cursor": "1000:-1:1",
+    "prev_page_results": false,
+    "results": [
+      {
+        "archived_at": null,
+        "assignee_ids": [
+          "2dfc0e69-9976-3b6b-a083-ec987b2af0a3"
+        ],
+        "attachment_count": null,
+        "completed_at": "2026-04-19T09:23:06.009915Z",
+        "created_at": "2026-04-19T09:23:06.011205Z",
+        "created_by": null,
+        "cycle_id": "5a799c0b8e1f3ca5980cf204821d1fde",
+        "estimate_point": null,
+        "id": "9aa5b22a-520d-36a3-8841-0cd5d4fffa37",
+        "is_draft": false,
+        "label_ids": [
+          "9f57b1bb-b9c5-3ae7-a951-dcb54a5e1dfc"
+        ],
+        "link_count": null,
+        "module_ids": [],
+        "name": "PAP0-7",
+        "parent_id": null,
+        "priority": "high",
+        "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+        "sequence_id": 8,
+        "sort_order": 20300.0,
+        "start_date": null,
+        "state__group": "completed",
+        "state_id": "aa3d288e-dfdd-331c-a5c4-0d0bfa9abed0",
+        "sub_issues_count": null,
+        "target_date": null,
+        "updated_at": "2026-04-19T09:23:06.011220Z",
+        "updated_by": null
+      },
+      {
+        "archived_at": null,
+        "assignee_ids": [
+          "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+          "f304c45a-2745-344e-bc01-b30e06391fa7"
+        ],
+        "attachment_count": null,
+        "completed_at": null,
+        "created_at": "2026-04-19T09:23:05.972595Z",
+        "created_by": null,
+        "cycle_id": "7bce998f75c13025972003799ad92dea",
+        "estimate_point": null,
+        "id": "aef6580b-3868-3fd3-9177-8291785d7bc9",
+        "is_draft": false,
+        "label_ids": [
+          "9f57b1bb-b9c5-3ae7-a951-dcb54a5e1dfc",
+          "e6984389-cfcd-31fe-9a7a-07bb0e292a09"
+        ],
+        "link_count": null,
+        "module_ids": [
+          "25da6581-c501-3e09-93e1-cb5f4e87bec3"
+        ],
+        "name": "PAP0-2",
+        "parent_id": null,
+        "priority": "high",
+        "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+        "sequence_id": 3,
+        "sort_order": 10200.0,
+        "start_date": null,
+        "state__group": "started",
+        "state_id": "70f2aafe-8bd1-3830-93c0-fc63648fa04a",
+        "sub_issues_count": null,
+        "target_date": null,
+        "updated_at": "2026-04-19T09:23:05.972609Z",
+        "updated_by": null
+      }
+    ],
+    "sub_grouped_by": null,
+    "total_count": 2,
+    "total_pages": 1,
+    "total_results": 2
+  }
+}

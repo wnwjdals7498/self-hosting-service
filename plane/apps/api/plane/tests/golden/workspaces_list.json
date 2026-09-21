@@ -1,0 +1,11 @@
+{
+  "__meta__": {
+    "endpoint": "workspaces_list",
+    "method": "GET",
+    "status": 400,
+    "url": "/api/workspaces/"
+  },
+  "body": {
+    "error": "The required key does not exist."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "__meta__": {
+    "endpoint": "pages_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/c33971d2-c4de-3543-bf58-ea5a6aec1974/pages/"
+  },
+  "body": []
+}

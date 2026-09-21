@@ -1,0 +1,26 @@
+{
+  "__meta__": {
+    "endpoint": "project_members_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/c33971d2-c4de-3543-bf58-ea5a6aec1974/members/"
+  },
+  "body": [
+    {
+      "created_at": "2026-04-19T09:23:05.891188Z",
+      "id": "37c553c3-8a41-3457-8dc3-cb5048f0d781",
+      "member": "f304c45a-2745-344e-bc01-b30e06391fa7",
+      "original_role": 15,
+      "project": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "role": 15
+    },
+    {
+      "created_at": "2026-04-19T09:23:05.888552Z",
+      "id": "4aebb39d-3d27-3b2a-a675-20c150380a1a",
+      "member": "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+      "original_role": 20,
+      "project": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "role": 20
+    }
+  ]
+}

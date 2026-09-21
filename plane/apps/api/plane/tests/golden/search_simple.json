@@ -1,0 +1,20 @@
+{
+  "__meta__": {
+    "endpoint": "search_simple",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/search/?search=Issue&workspace_search=true"
+  },
+  "body": {
+    "results": {
+      "cycle": [],
+      "intake": [],
+      "issue": [],
+      "issue_view": [],
+      "module": [],
+      "page": [],
+      "project": [],
+      "workspace": []
+    }
+  }
+}

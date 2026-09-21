@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(powershell.exe -NoProfile -ExecutionPolicy Bypass -File *)",
+      "Bash(powershell.exe -NoProfile -Command *)",
+      "Bash(powershell.exe -NoProfile *)",
+      "Bash(powershell.exe *)",
+      "Bash(xargs *)",
+      "Bash(python *)",
+      "Bash(Select-String *)",
+      "Bash(*)"
+    ]
+  }
+}

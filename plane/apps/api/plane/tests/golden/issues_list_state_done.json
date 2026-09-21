@@ -1,0 +1,22 @@
+{
+  "__meta__": {
+    "endpoint": "issues_list_state_done",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/c33971d2-c4de-3543-bf58-ea5a6aec1974/issues/?group_by=state"
+  },
+  "body": {
+    "count": 10,
+    "extra_stats": null,
+    "grouped_by": "state",
+    "next_cursor": "1000:1:0",
+    "next_page_results": false,
+    "prev_cursor": "1000:-1:1",
+    "prev_page_results": false,
+    "results": {},
+    "sub_grouped_by": null,
+    "total_count": 10,
+    "total_pages": 1,
+    "total_results": 10
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "__meta__": {
+    "endpoint": "cycles_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/c33971d2-c4de-3543-bf58-ea5a6aec1974/cycles/"
+  },
+  "body": [
+    {
+      "assignee_ids": [
+        "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+        "f304c45a-2745-344e-bc01-b30e06391fa7",
+        "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+        "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+        "f304c45a-2745-344e-bc01-b30e06391fa7"
+      ],
+      "cancelled_issues": 0,
+      "completed_issues": 1,
+      "created_by": null,
+      "description": "Upcoming Cycle of PAP0",
+      "end_date": "2026-04-19T00:00:00Z",
+      "external_id": null,
+      "external_source": null,
+      "id": "5a799c0b-8e1f-3ca5-980c-f204821d1fde",
+      "is_favorite": false,
+      "logo_props": {},
+      "name": "Upcoming Cycle",
+      "owned_by_id": "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+      "progress_snapshot": {},
+      "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "sort_order": 55535.0,
+      "start_date": "2026-04-19T00:00:00Z",
+      "status": "COMPLETED",
+      "total_issues": 5,
+      "version": 1,
+      "view_props": {},
+      "workspace_id": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "assignee_ids": [
+        "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+        "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+        "f304c45a-2745-344e-bc01-b30e06391fa7",
+        "2dfc0e69-9976-3b6b-a083-ec987b2af0a3"
+      ],
+      "cancelled_issues": 0,
+      "completed_issues": 1,
+      "created_by": null,
+      "description": "Active Cycle of PAP0",
+      "end_date": "2026-04-19T00:00:00Z",
+      "external_id": null,
+      "external_source": null,
+      "id": "7bce998f-75c1-3025-9720-03799ad92dea",
+      "is_favorite": false,
+      "logo_props": {},
+      "name": "Active Cycle",
+      "owned_by_id": "2dfc0e69-9976-3b6b-a083-ec987b2af0a3",
+      "progress_snapshot": {},
+      "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "sort_order": 65535.0,
+      "start_date": "2026-04-19T00:00:00Z",
+      "status": "COMPLETED",
+      "total_issues": 5,
+      "version": 1,
+      "view_props": {},
+      "workspace_id": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    }
+  ]
+}

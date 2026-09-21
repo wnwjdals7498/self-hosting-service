@@ -1,0 +1,58 @@
+{
+  "__meta__": {
+    "endpoint": "states_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/c33971d2-c4de-3543-bf58-ea5a6aec1974/states/"
+  },
+  "body": [
+    {
+      "color": "#888",
+      "default": false,
+      "description": "",
+      "group": "backlog",
+      "id": "59e2c39f-9a27-3c9b-949d-d5203f46c159",
+      "name": "Backlog",
+      "order": 1.0,
+      "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "sequence": 10000.0,
+      "workspace_id": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "color": "#888",
+      "default": false,
+      "description": "",
+      "group": "unstarted",
+      "id": "0f1f5321-09d3-3d1b-bb17-b09527c19461",
+      "name": "Todo",
+      "order": 1.0,
+      "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "sequence": 25000.0,
+      "workspace_id": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "color": "#888",
+      "default": false,
+      "description": "",
+      "group": "started",
+      "id": "70f2aafe-8bd1-3830-93c0-fc63648fa04a",
+      "name": "In Progress",
+      "order": 1.0,
+      "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "sequence": 40000.0,
+      "workspace_id": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "color": "#888",
+      "default": false,
+      "description": "",
+      "group": "completed",
+      "id": "aa3d288e-dfdd-331c-a5c4-0d0bfa9abed0",
+      "name": "Done",
+      "order": 1.0,
+      "project_id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "sequence": 55000.0,
+      "workspace_id": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    }
+  ]
+}

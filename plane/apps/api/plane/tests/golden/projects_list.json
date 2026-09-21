@@ -1,0 +1,56 @@
+{
+  "__meta__": {
+    "endpoint": "projects_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/projects/"
+  },
+  "body": [
+    {
+      "archived_at": null,
+      "created_at": "2026-04-19T09:23:05.884238Z",
+      "created_by": null,
+      "cycle_view": false,
+      "guest_view_all_features": false,
+      "id": "c33971d2-c4de-3543-bf58-ea5a6aec1974",
+      "identifier": "PAP0",
+      "inbox_view": false,
+      "intake_count": 0,
+      "issue_views_view": false,
+      "logo_props": {},
+      "member_role": 20,
+      "module_view": false,
+      "name": "Phase A Project 0",
+      "network": 2,
+      "page_view": true,
+      "project_lead": null,
+      "sort_order": 65535.0,
+      "updated_at": "2026-04-19T09:23:05.884252Z",
+      "updated_by": null,
+      "workspace": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    },
+    {
+      "archived_at": null,
+      "created_at": "2026-04-19T09:23:05.892918Z",
+      "created_by": null,
+      "cycle_view": false,
+      "guest_view_all_features": false,
+      "id": "dca36707-0784-329a-a53e-cadc76e74fd7",
+      "identifier": "PAP1",
+      "inbox_view": false,
+      "intake_count": 0,
+      "issue_views_view": false,
+      "logo_props": {},
+      "member_role": 20,
+      "module_view": false,
+      "name": "Phase A Project 1",
+      "network": 2,
+      "page_view": true,
+      "project_lead": null,
+      "sort_order": 55535.0,
+      "updated_at": "2026-04-19T09:23:05.892932Z",
+      "updated_by": null,
+      "workspace": "95b5bb0a-43a7-3b4f-bd0b-5a20654ce975"
+    }
+  ]
+}

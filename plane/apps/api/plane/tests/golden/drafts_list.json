@@ -1,0 +1,22 @@
+{
+  "__meta__": {
+    "endpoint": "drafts_list",
+    "method": "GET",
+    "status": 200,
+    "url": "/api/workspaces/phase-a-ws/draft-issues/"
+  },
+  "body": {
+    "count": 0,
+    "extra_stats": null,
+    "grouped_by": null,
+    "next_cursor": "1000:1:0",
+    "next_page_results": false,
+    "prev_cursor": "1000:-1:1",
+    "prev_page_results": false,
+    "results": [],
+    "sub_grouped_by": null,
+    "total_count": 0,
+    "total_pages": 0,
+    "total_results": 0
+  }
+}

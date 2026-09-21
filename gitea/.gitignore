@@ -1,0 +1,89 @@
+# ============================================
+# Gitea 셀프 호스팅 — 로컬 전용 파일 제외
+# 각 폴더의 .gitkeep은 유지하여 빈 폴더 구조 보존
+# ============================================
+
+# --- 바이너리 (재다운로드 가능) ---
+bin/*
+!bin/.gitkeep
+
+# --- Gitea 커스텀 설정 (비밀 값 포함) ---
+custom/*
+!custom/conf/
+custom/conf/*
+!custom/conf/.gitkeep
+
+# --- 데이터베이스 ---
+data/*
+!data/.gitkeep
+
+# --- Git 리포지토리 ---
+repos/*
+!repos/.gitkeep
+
+# --- 백업 임시 파일 ---
+backups/*
+!backups/.gitkeep
+
+# ============================================
+# 실행 로그 — 자동 누적되므로 전부 gitignore
+# agent-team/ 만 예외 (개발 파이프라인 문서)
+# ============================================
+
+# Gitea 런타임 로그 (stdout/stderr, gitea.log — 민감 정보 포함)
+logs/gitea/*
+!logs/gitea/.gitkeep
+
+# Setup 스크립트 실행 로그
+logs/setup/*
+!logs/setup/.gitkeep
+
+# 테스트 실행 로그 + JSON 요약 (매 실행마다 다수 생성)
+logs/tests/*
+!logs/tests/.gitkeep
+
+# 백업 실행 로그 (매일 누적)
+logs/backup/*
+!logs/backup/.gitkeep
+
+# 복구 실행 로그
+logs/restore/*
+!logs/restore/.gitkeep
+
+# 로그 로테이션 자체 로그 (매주 누적)
+logs/logs-rotation/*
+!logs/logs-rotation/.gitkeep
+
+# --- 복구 임시 폴더 ---
+restore-temp/
+restore-safety-*/
+
+# ============================================
+# Claude Code / IDE 사용자별 설정
+# ============================================
+
+# Claude Code 사용자별 권한/토큰 (팀 공유 금지)
+.claude/settings.local.json
+
+# Visual Studio Code
+.vscode/settings.json
+
+# JetBrains
+.idea/
+
+# ============================================
+# OS / 편집기 아티팩트
+# ============================================
+Thumbs.db
+.DS_Store
+*.swp
+*.swo
+*~
+
+# ============================================
+# 백업 / 임시 파일
+# ============================================
+*.bak
+*.bak_*
+*.tmp
+*.old
